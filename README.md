@@ -62,7 +62,29 @@ This function is useful for ensuring compatibility with external applications or
 ## Notes
 
 - **Royalty Payment**: Note that while this contract sets royalty information, actual royalty payment must be implemented by the marketplace where the NFT is sold.
-- **Access Control**: For production, consider adding access control to restrict who can set royalties.
+- **Access Control**: Only the contract owner can set royalties and mint tokens.
+
+## Development
+
+This repository includes a simple Hardhat setup for compiling and testing the contract.
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Compile
+
+```bash
+npm run compile
+```
+
+### Test
+
+```bash
+npm test
+```
 
 ## Installation
 
