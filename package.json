@@ -1,0 +1,21 @@
+{
+  "name": "dynamicroyaltynftcontract",
+  "version": "1.0.0",
+  "description": "This project implements a dynamic royalty distribution system for NFTs (ERC721 tokens) using OpenZeppelin Contracts. The contract is designed to set default royalties and adjust royalties for individual tokens as needed. It leverages the ERC2981 standard, making it compatible with marketplaces that support royalty standards.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0",
+    "hardhat": "^2.26.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0"
+  }
+}
